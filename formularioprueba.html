@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form id="form1" name="form1" action="http://ncoge.com/phps/formulario.php" method="post">
+    <table width="100%">
+        <tr>
+            <td>
+
+            <fieldset>
+             <legend><b> Datos personales:</b></legend>  
+            <br>
+
+            Nombre: <input type="text" name="nombre">
+            <br>
+
+            Apellido: <input type="text" name="Apellido">
+            <br>
+
+            Correo: <input type="text" name="Correo">
+            <br>
+
+
+            Hobbies: <input type="text" name="Hobbies">
+            </fieldset>
+            
+        </td>
+            
+        <td>
+                <fieldset>
+                <legend><b>Idiomas:</b></legend>
+                <br>
+                Puntúa tu nivel de idiomas de 1 a 5:
+
+                <br>
+
+                Inglés: 1<input type="radio" name="Inglés" value="1">
+                        2<input type="radio" name="Inglés" value="2">
+                        3<input type="radio" name="Inglés" value="3">
+                        4<input type="radio" name="Inglés" value="4">
+                        5<input type="radio" name="Inglés" value="5">
+
+                <br>
+                Suajili: 1<input type="radio" name="Suajili" value="1">
+                         2<input type="radio" name="Suajili" value="2">
+                         3<input type="radio" name="Suajili" value="3">
+                         4<input type="radio" name="Suajili" value="4">
+                         5<input type="radio" name="Suajili" value="5">
+                         
+                <br>
+                Alemán: 1<input type="radio" name="Suajili" value="1">
+                         2<input type="radio" name="Suajili" value="2">
+                         3<input type="radio" name="Suajili" value="3">
+                         4<input type="radio" name="Suajili" value="4">
+                         5<input type="radio" name="Suajili" value="5">
+                 
+                </fieldset>
+            </td>
+
+                
+
+            
+        </tr>
+        <tr>
+            <td></td>
+            <td align="center">  <fieldset>
+             <legend><b> Dominio de los siguientes programas:</b></legend>  
+            <br>
+            Writer:<input name="Writer" type="checkbox" value="Yes"/>
+            Base:<input name="Base" type="checkbox" value="yes"/>
+            <br>
+            Calc:<input name="Calc" type="checkbox" value="yes"/>
+            
+            Impress:<input name="Impress" type="checkbox" value="yes"/> 
+            </td>
+        </tr>
+
+         <tr>
+            <td></td>
+            <td>  <fieldset>
+             <legend><b>Trabajo con el siguiente sistema operativo:</b></legend>  
+            
+            <label for="so">Sistema operativo</label> <br/>
+    <select id="so" name="so">
+    <option value="" selected="selected">S.O.</option>
+    <option value="windows">Windows</option>
+    <option value="mac">Mac</option>
+    <option value="linux">Linux</option>
+    <option value="otro">Otro</option>
+            <br>
+            </td>
+        </tr>
+
+
+        
+     </table>
+     <input type="image" name="enviar" src="rolo.png" />
+<input type="reset" name="limpiar" value="Reiniciar" />
+    </form>
+</body>
+</html>
